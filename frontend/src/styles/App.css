@@ -1,0 +1,33 @@
+.app {
+    background-color: #E3F2FD;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #BBDEFB;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #64B5F6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #90CAF9;
+}
+
+@media (max-width: 600px) {
+    .header {
+        padding: 15px;
+    }
+    .button {
+        width: 100%;
+        padding: 15px;
+    }
+}
